@@ -1,0 +1,302 @@
+body {
+    box-sizing: border-box;
+    margin:0;
+
+    }
+
+    @media screen and (min-width: 768px) {
+        
+        
+        body {
+            border-right: 1px #fed332 solid;
+            box-shadow: 0px 0px 10px #fed332;
+        }
+
+        header {display:flex;
+
+        }
+
+        #entete h1 {
+            font-size: 3em;
+            margin-bottom: 0;               
+            padding-top: 20px;
+        }
+
+        #entete h2 {
+            font-size: 1.6em;
+            text-align: left;
+            padding-left: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #minitrait {
+            margin-top: 0;
+            margin-left: 0;
+        }
+
+        #sousnom {
+            text-align: left;
+        
+           
+        }
+
+        body {
+           
+           margin: auto;
+           max-width: 1024px;
+           
+
+
+        }
+
+        #sousnom, {
+            
+          
+
+        }
+
+        aside#asidephoto {
+            min-width: 330px; 
+            max-width: 330px;
+        }
+
+        div#entete {
+            max-width: 100%;
+            padding-left: 50px;
+
+        }
+        
+        
+
+
+
+        #corpscv {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #liseret {
+        display: flex;
+        flex-direction: column;
+        min-width: 330px;  /* remplacer */
+        max-width: 330px;
+        justify-content: space-between
+        }
+
+        #cursus_total {
+            max-width: 100%;
+            padding-left: 50px;
+        }
+
+        
+        
+    
+
+        #aprem1, #aprem2, #aprem3,#aprem4, #aprem5 {
+        display: flex;
+        flex-direction: row;
+        padding-right: 2px;
+
+        }
+
+        #lorem1, #lorem2, #lorem3,#lorem4, #lorem5 {
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+      #form1, #form2, #ep1, #ep2, #ep3{
+        display: flex;
+        min-width: 25%;
+        padding-right: 15px;
+        
+                       }
+
+
+        #liseret p, #coordonees {
+           margin-left: 8%;
+           margin-right: 8%;
+
+        }
+
+        div#coordonnees {
+            margin-left: 8%;
+            margin-right: 8% }
+
+
+
+        }
+
+
+img#maphoto {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 2px #daaf12 solid;
+}
+
+
+aside#asidephoto {
+    background-color: #fed332;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+ 
+h2  {font-size: 1.2em;
+    text-transform: uppercase ;
+}
+
+#liseret, #cursus_total {
+    font-size: 1.18em;
+}
+
+
+
+
+
+#sousnom {
+    text-align: center;
+    text-transform: capitalize;
+    padding-left: 10px;
+    margin-bottom: 0
+
+
+}
+  
+#prenom {
+    color:#fed332;
+}
+
+
+hr#minitrait {
+    width: 65px;
+    height: 2px;
+    background-color: #fed332;
+    border: #fed332;
+    margin-top: 0;
+    margin-bottom: 30px;
+    
+
+}
+
+#separation1, #separation2, #separation3{
+    width: 95%;
+    height: 2px;
+    background-color: #fed332;
+    border: #fed332;
+    margin: 2px;
+}    
+
+.hlis   {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #404040 ;
+    color: #fed332;
+    margin-bottom: 20px;
+    height: 40px;
+    vertical-align: middle;
+    margin-top: 0
+}
+
+#liseret {
+    background-color: #fed332;
+    }
+
+ul {
+
+    list-style: none;
+    padding-left: 10px;
+}
+
+
+#liseret p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify; 
+}
+
+
+
+
+aside#Loisirs {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+
+}
+
+.loisirs {
+    width: 50px;
+    border-radius: 50%;
+    border: 1px black solid;
+
+}
+
+
+
+div#lois {
+    display: flex;
+    justify-content: space-around;
+     /*centrage vertical*/
+
+}
+
+
+#formation_titre, #Experience_titre, #recommandations {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+/* selection class */
+
+.aprem {
+    padding-left: 10px
+
+}
+
+    #form1, #form2, #ep1, #ep2, #ep3{
+    display: flex;
+               }
+
+#imgform1, #imgform2, #imgep1, #imgep2, #imgep3 {
+    padding-top: 19px;
+    padding-right: 10px
+}
+
+#recommand {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icones {
+    padding-right: 30px;
+    width:40px;
+    height:40px;
+}
+
+aside#contact {
+flex-grow: 0.5;
+}
+
+aside#apropos {
+ flex-grow: 1.4;
+}
+
+aside#Loisirs {
+flex-grow: 0.15;
+}

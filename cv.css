@@ -160,15 +160,15 @@ h2  {font-size: 1.2em;
 }
 
 
-#aprem1 i, #aprem2 i, #aprem3 i, #aprem4 i,#aprem5 i{
+.aprem i{
     color: #fed332;
-    font-size: 15px;
-        }
+    font-size: 10px;
+            }
           
 .cursus i {
     color:#fed332;
-    margin-right: 10px
-    
+    margin-right: 10px;
+    font-size:30px;
 }
 
 
@@ -269,7 +269,7 @@ div#lois {
                }
 
 #imgform1, #imgform2, #imgep1, #imgep2, #imgep3 {
-    padding-top: 19px;
+    padding-top: 15px;
     padding-right: 10px
 }
 

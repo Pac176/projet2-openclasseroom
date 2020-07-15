@@ -112,33 +112,40 @@ ul {
 }
 
 #coordonnees {
-    height: 400px;
+    display: flex;
+    height: 300px;
+    padding-right: 10px;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
 #apropos p {
-    height: 600px;
+    height: 660px;
+    padding-top: 30px;
 }
 
 
-#Lois {
-    display: flex;
-    flex-direction: column;
+#lois {
+    
     height: 100px;
-
+    text-align: center;
+    padding-top: 7px;
 }
 
-#liseret i {
-  border-radius: 50%;
-  border: 1px solid black;
-  padding: 15px;
-}
+#logo1, #logo2,#logo3 {
+   
+    font-size: 35px;
+    border-radius: 50%;
+    border: 1px black solid;
+    padding: 7px;
 
+}
 
 
 div#lois {
-    display: flex;
-    justify-content: space-around;
+    
+    
      /*centrage vertical*/
 
 }
@@ -186,6 +193,8 @@ h3,h4 {
     width:40px;
     height:40px;
 }
+
+
 
  @media screen and (min-width: 768px) {
         

@@ -228,7 +228,9 @@ div#lois {
         div#entete {
             max-width: 100%;
             padding-left: 50px;
-
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         
         

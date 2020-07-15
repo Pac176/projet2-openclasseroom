@@ -48,7 +48,7 @@ h2  {font-size: 1.2em;
 }
 
 #liseret, #cursus_total {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 
@@ -111,13 +111,20 @@ ul {
     text-align: justify; 
 }
 
+#coordonnees {
+    height: 400px;
+}
 
 
+#apropos p {
+    height: 600px;
+}
 
-aside#Loisirs {
+
+#Lois {
     display: flex;
     flex-direction: column;
-    
+    height: 100px;
 
 }
 
@@ -140,19 +147,24 @@ div#lois {
 .cursus {
     display: flex;
     padding-left: 10px;
+    padding-bottom: 10px;
     align-items: center;
     border-bottom: 1px #fed332 solid;
 }
 
-.cursus h2 {
-    margin-bottom: 10px;
+  
+
+h3,h4 {
+    padding-bottom: 15px;
 }
 
 
 
-.aprem {
-    padding-left: 10px
 
+.aprem {
+    padding-left: 10px;
+    padding-bottom: 25px;
+    padding-top:25px;
 }
 
     #form1, #form2, #ep1, #ep2, #ep3{
@@ -181,8 +193,7 @@ div#lois {
         
 
         header {display:flex;
-
-        }
+                        }
 
         #entete h1 {
             font-size: 3em;
@@ -247,12 +258,13 @@ div#lois {
         flex-direction: column;
         min-width: 330px;  /* remplacer */
         max-width: 330px;
-        justify-content: space-between
+        
         }
 
         #cursus_total {
             max-width: 100%;
             padding-left: 50px;
+            padding-top: 20px;
         }
 
         

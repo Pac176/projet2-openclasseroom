@@ -18,12 +18,12 @@ img#maphoto {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 2px #daaf12 solid;
+    border: 2px #D5D58D solid;
 }
 
 
 div#asidephoto {
-    background-color: #fed332;
+    background-color:#009FFD;
     width: 100%;
     height: 200px;
     display: flex;
@@ -44,7 +44,7 @@ h2  {font-size: 1.2em;
 }
 
 #trait {
-    text-decoration: underline #fed332 ;
+    text-decoration: underline #009FFD ;
 }
 
 #liseret, #cursus_total {
@@ -53,12 +53,12 @@ h2  {font-size: 1.2em;
 
 
 .aprem i{
-    color: #fed332;
+    color: #009FFD;
     font-size: 10px;
             }
           
 .cursus i {
-    color:#fed332;
+    color:#009FFD;
     margin-right: 10px;
     font-size:30px;
 }
@@ -76,7 +76,7 @@ h2  {font-size: 1.2em;
 }
   
 #prenom {
-    color:#fed332;
+    color:#009FFD;
 }
 
 
@@ -88,15 +88,21 @@ h2  {font-size: 1.2em;
     justify-content: center;
     text-align: center;
     background-color: #404040 ;
-    color: #fed332;
+    color: #009FFD;
     height: 40px;
     vertical-align: middle;
     margin-top: 0
 }
 
 #liseret {
-    background-color: #fed332;
-    }
+    background: linear-gradient(#009FFD,#2A2A72);
+    color:#eeee18;
+        }
+
+ul, #liseret p, #corpscv p {
+    font-size: 1.1em;
+}
+
 
 ul {
 
@@ -141,9 +147,10 @@ ul {
    
     font-size: 35px;
     border-radius: 50%;
-    border: 1px black solid;
+    border: 1px #D5D58D solid;
     padding: 7px;
     margin-right: 20px;
+    color:#D5D58D;
 }
 
 
@@ -160,7 +167,7 @@ ul {
     padding-left: 10px;
     padding-bottom: 10px;
     align-items: center;
-    border-bottom: 1px #fed332 solid;
+    border-bottom: 1px #009FFD solid;
 }
 
   

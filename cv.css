@@ -4,6 +4,7 @@
     
 }
 
+<<<<<<< Updated upstream
 
 
 body {
@@ -203,6 +204,13 @@ h3,h4 {
  @media screen and (min-width: 768px) {
         
         
+=======
+          
+
+        #bloc_page 
+        {
+         width:1024px;}
+>>>>>>> Stashed changes
         
 
         header {display:flex;
@@ -317,4 +325,4 @@ h3,h4 {
 
 
 
-        }
+      @media screen and (min-width: 768px) {  }

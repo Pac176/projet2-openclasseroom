@@ -10,7 +10,6 @@
 
 
 
-
 body {
     box-sizing: border-box;
     margin:0;
@@ -211,4 +210,17 @@ h3,h4 {
     height:40px;
 }
 
+a:visited {
+    color:#009FFD ;
+    text-decoration: none;
+}
+
+
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color:#eeee18;
+  background: #009FFD;
+  border-radius: 20px;
+}
 

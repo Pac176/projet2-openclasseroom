@@ -22,7 +22,7 @@ img#maphoto {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 2px #D5D58D solid;
+    border: 2px #4b5adb solid;
 }
 
 
@@ -53,6 +53,7 @@ h2  {font-size: 1.2em;
 
 #liseret, #cursus_total {
     font-size: 1em;
+    
 }
 
 
@@ -135,14 +136,17 @@ ul {
     padding-top: 30px;
 }
 
-/*comment les centrer?*/
+#surlois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
 
 
 #lois {
-    height: 100px;
+    
     text-align: center;
-    padding-top: 7px;
-    display: table-cell;
     vertical-align: middle;
     width: 330px;
 }
@@ -157,12 +161,12 @@ ul {
     color:#D5D58D;
 }
 
-
+#formation {
+    padding: 10px;
+}
 
     
     
-     /*centrage vertical*/
-
 
 
 
@@ -201,7 +205,7 @@ h3,h4 {
 #recommand {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
 }
 
 .icones {
@@ -224,3 +228,20 @@ a:hover, a:focus, a:active {
   border-radius: 20px;
 }
 
+aside#apropos {
+    overflow: auto;
+
+}
+
+
+#recommand {
+    flex-direction: column;
+   } 
+
+
+ #nom1, #nom2
+   {
+       font-size: 1.5vh;
+       
+   }
+ 

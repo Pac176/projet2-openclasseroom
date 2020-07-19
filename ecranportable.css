@@ -1,46 +1,39 @@
 *{
     margin:0;
     padding:0;
-    
+
 }
 
 #bloc_page {
     margin:auto;
 }
 
-
-
 body {
     box-sizing: border-box;
     margin:0;
-   
-    }
-
-   
+    background-color:#daf2f1 ;
+}
 
 img#maphoto {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 2px #4b5adb solid;
+    border: 2px #4a1a1a solid;
+    position: absolute;
 }
 
-
 div#asidephoto {
-    background-color:#009FFD;
+    background-color:#b83f46;
     width: 100%;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    }
-
+}
 
 h1 {
     font-size: 1.5em;
     text-align: center;
-
 }
  
 h2  {font-size: 1.2em;
@@ -48,7 +41,7 @@ h2  {font-size: 1.2em;
 }
 
 #trait {
-    text-decoration: underline #009FFD ;
+    text-decoration: underline #b83f46 ;
 }
 
 #liseret, #cursus_total {
@@ -56,36 +49,27 @@ h2  {font-size: 1.2em;
     
 }
 
-
 .aprem i{
-    color: #009FFD;
+    color: #b83f46;
     font-size: 10px;
-            }
+}
           
 .cursus i {
-    color:#009FFD;
+    color:#b83f46;
     margin-right: 10px;
     font-size:30px;
 }
-
-
-
 
 #sousnom {
     text-align: center;
     text-transform: capitalize;
     padding-left: 10px;
     margin-bottom: 20px;
-
-
 }
   
 #prenom {
-    color:#009FFD;
+    color:#b83f46;
 }
-
-
-    
 
 .hlis   {
     display:flex;
@@ -93,16 +77,16 @@ h2  {font-size: 1.2em;
     justify-content: center;
     text-align: center;
     background-color: #404040 ;
-    color: #009FFD;
+    color: #b83f46;
     height: 40px;
     vertical-align: middle;
     margin-top: 0
 }
 
 #liseret {
-    background: linear-gradient(#009FFD,#2A2A72);
-    color:#eeee18;
-        }
+    background: linear-gradient(#b83f46,#4a1a1a);
+    color:#47C0B9;
+}
 
 ul, #liseret p, #corpscv p {
     font-size: 1.1em;
@@ -110,7 +94,6 @@ ul, #liseret p, #corpscv p {
 
 
 ul {
-
     list-style: none;
     padding-left: 10px;
 }
@@ -130,7 +113,6 @@ ul {
     justify-content: space-around;
 }
 
-
 #apropos p {
     height: 660px;
     padding-top: 30px;
@@ -145,47 +127,35 @@ ul {
 
 
 #lois {
-    
     text-align: center;
     vertical-align: middle;
     width: 330px;
 }
 
 #logo1, #logo2,#logo3 {
-   
     font-size: 35px;
     border-radius: 50%;
-    border: 1px #D5D58D solid;
+    border: 1px #47C0B9 solid;
     padding: 7px;
     margin-right: 20px;
-    color:#D5D58D;
+    color:#47C0B9;
 }
 
 #formation {
     padding: 10px;
 }
 
-    
-    
-
-
-
 .cursus {
     display: flex;
     padding-left: 10px;
     padding-bottom: 10px;
     align-items: center;
-    border-bottom: 1px #009FFD solid;
+    border-bottom: 1px #b83f46 solid;
 }
-
-  
 
 h3,h4 {
     padding-bottom: 15px;
 }
-
-
-
 
 .aprem {
     padding-left: 10px;
@@ -193,19 +163,15 @@ h3,h4 {
     padding-top:25px;
 }
 
-    #form1, #form2, #ep1, #ep2, #ep3{
+#form1, #form2, #ep1, #ep2, #ep3{
     display: flex;
                }
 
-#imgform1, #imgform2, #imgep1, #imgep2, #imgep3 {
-    padding-top: 15px;
-    padding-right: 10px
-}
-
 #recommand {
-    display: flex;
     justify-content: space-around;
     padding: 10px;
+    text-align: center;
+    
 }
 
 .icones {
@@ -215,16 +181,14 @@ h3,h4 {
 }
 
 a:visited {
-    color:blue ;
+    color:#b83f46 ;
     text-decoration: none;
 }
 
-
-
 a:hover, a:focus, a:active {
   text-decoration: none;
-  color:#eeee18;
-  background: #009FFD;
+  color:#47C0B9;
+  background: #b83f46;
   border-radius: 20px;
 }
 
@@ -233,15 +197,35 @@ aside#apropos {
 
 }
 
+.impact {
+        
+ }
 
-#recommand {
-    flex-direction: column;
-   } 
+.impact {
+    position: relative;
+    z-index: 1;
+    width: 3vh;
+ }
 
+#impact1 {
+    top: 7vh;
+    left: 1vh;
+}
+#impact2 {
+    top: -9vh;
+    left: 1vh;
+}
+#impact3 {
+    top: 2vh;
+    left: 7vh;
+}
 
- #nom1, #nom2
-   {
-       font-size: 1.5vh;
-       
-   }
- 
+.datelieu {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2vh;
+}
+
+.datelieu p {
+    padding-left: 7px;
+}

@@ -1,132 +1,108 @@
+header {
+    display:flex;
+}
 
-      
+body {           
+    margin: auto;
+    max-width: 1024px;
+}              
+
+#entete h1 {
+    font-size: 3em;
+    margin-bottom: 0;               
+    padding-top: 20px;
+}       
+
+#entete h2 {
+    font-size: 1.6em;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2  {
+    font-size: 1.2em;
+    text-transform: uppercase; 
+}
+
+#sousnom {
+    text-align: left;
+}
+
+div#asidephoto {
+    min-width: 330px; 
+    max-width: 330px;
+}
+
+div#entete {
+    max-width: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
         
+#corpscv {
+    display: flex;
+    flex-direction: row;
+}
 
-        header {display:flex;
-                        }
+#liseret {
+    display: flex;
+    flex-direction: column;
+    min-width: 330px;  /* remplacer */
+     max-width: 330px;
+}
 
-        #entete h1 {
-            font-size: 3em;
-            margin-bottom: 0;               
-            padding-top: 20px;
-        }
+#cursus_total {
+    max-width: 100%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
 
-        #entete h2 {
-            font-size: 1.6em;
-            text-align: left;
-            padding-left: 0;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-        h2  {
-            font-size: 1.2em;
-            text-transform: uppercase; 
-            }
-
-        #sousnom {
-            text-align: left;
+#recommand {
+    display:flex;
+    flex-direction: row;
+} 
         
-           
-        }
+.aprem {
+    display: flex;
+    flex-direction: row;
+    padding-right: 2px;
+}
 
-        body {
-           
-           margin: auto;
-           max-width: 1024px;
-        
-        }
+.lorem {
+    display: flex;
+    flex-direction: column;
+}
 
-       
+#form1, #form2, #ep1, #ep2, #ep3{
+    display: flex;
+    min-width: 35%;
+    padding-right: 15px;
+}
 
-        
+#liseret p, #coordonees {
+    margin-left: 8%;
+    margin-right: 8%;
+}
 
-        div#asidephoto {
-            min-width: 330px; 
-            max-width: 330px;
-        }
-
-        div#entete {
-            max-width: 100%;
-            padding-left: 50px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        
-        
+div#coordonnees {
+    margin-left: 8%;
+    margin-right: 8%; 
+}
 
 
+#nom1, #nom2{
+    font-size: 1.5vh;
+    padding: 10px;
+}
 
-        #corpscv {
-            display: flex;
-            flex-direction: row;
-        }
-
-        #liseret {
-        display: flex;
-        flex-direction: column;
-        min-width: 330px;  /* remplacer */
-        max-width: 330px;
-        
-        }
-
-        #cursus_total {
-            max-width: 100%;
-            padding-left: 50px;
-            padding-top: 20px;
-        }
-
-        #recommand {
-            display:flex;
-            flex-direction: row;
-            
-           } 
-        
+.datelieu {
+    display: flex;
+    flex-direction: column;
     
+}
 
-        #aprem1, #aprem2, #aprem3,#aprem4, #aprem5 {
-        display: flex;
-        flex-direction: row;
-        padding-right: 2px;
-
-        }
-
-        #lorem1, #lorem2, #lorem3,#lorem4, #lorem5 {
-        display: flex;
-        flex-direction: column;
-        
-      }
-
-      #form1, #form2, #ep1, #ep2, #ep3{
-        display: flex;
-        min-width: 35%;
-        padding-right: 15px;
-        
-                       }
-
-
-        #liseret p, #coordonees {
-           margin-left: 8%;
-           margin-right: 8%;
-
-        }
-
-        div#coordonnees {
-            margin-left: 8%;
-            margin-right: 8% }
-
-
-
-        }
-
-    a:visited {
-  color: #844;}
-
-
-  #nom1, #nom2
-  {
-      font-size: 1.5vh;
-      padding: 10px;
-  }
 

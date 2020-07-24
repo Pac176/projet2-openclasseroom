@@ -48,20 +48,20 @@ div#entete {
     flex-direction: row;
 }
 
-#liseret {
+.liseret {
     display: flex;
     flex-direction: column;
     min-width: 330px;  /* remplacer */
      max-width: 330px;
 }
 
-#cursus_total {
+.cursus_total {
     max-width: 100%;
     padding-left: 45px;
     padding-top: 20px;
 }
 
-#recommand {
+.recommand {
     display:flex;
     flex-direction: row;
 } 
@@ -77,18 +77,18 @@ div#entete {
     flex-direction: column;
 }
 
-#form1, #form2, #ep1, #ep2, #ep3{
+.gps,.dot{
     display: flex;
     min-width: 35%;
     padding-right: 15px;
 }
 
-#liseret p, #coordonees {
+.liseret p, #coordonees {
     margin-left: 8%;
     margin-right: 8%;
 }
 
-div#coordonnees {
+.coordonnees {
     margin-left: 8%;
     margin-right: 8%; 
 }
@@ -125,7 +125,7 @@ div#coordonnees {
 
 #entete h2::after {
     
-    padding-top: -0.4rem;
+    padding-top: 0.2rem;
     margin-right: 11.3rem;
 }
 

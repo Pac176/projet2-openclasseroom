@@ -34,16 +34,21 @@ div#asidephoto {
 h1 {
     font-size: 1.5em;
     text-align: center;
+    margin-top:1.5rem;
 }
  
-h2  {font-size: 1.2em;
+h2  {font-size: 1.5rem;
     text-transform: capitalize ;
 }
-
-#entete h2::before {
-    content: "Dévelo";
+#entete h2::after {
+    content: "_____";
+    color: transparent;
+    margin-top: -1.8rem;
     text-decoration: underline;
     text-decoration-color: #b83f46;
+    display: block;
+    padding-top: 0.3rem;
+    margin-right: 14.3rem;
 }
 
 #liseret, #cursus_total {
@@ -66,7 +71,7 @@ h2  {font-size: 1.2em;
     text-align: center;
     text-transform: capitalize;
     padding-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
   
 #prenom {
@@ -132,6 +137,8 @@ ul {
     text-align: center;
     vertical-align: middle;
     width: 330px;
+    display:flex;
+    justify-content: space-around;
 }
 
 #logo1, #logo2,#logo3 {
@@ -141,10 +148,17 @@ ul {
     padding: 7px;
     margin-right: 20px;
     color:#47C0B9;
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: 75px;
 }
 
-#formation {
-    padding: 10px;
+div#cursus_total {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top:0.6rem;
 }
 
 .cursus {
@@ -155,12 +169,13 @@ ul {
     border-bottom: 1px #b83f46 solid;
 }
 
-h3,h4 {
+h3 {
     padding-bottom: 15px;
+    padding-top:15px;
 }
 
 .aprem {
-    padding-left: 10px;
+    padding-left: 5px;
     padding-bottom: 25px;
     padding-top:25px;
 }
@@ -207,17 +222,17 @@ aside#apropos {
     width: 3vh;
  }
 
-#impact1 {
-    top: 7vh;
-    left: 1vh;
+ #impact1 {
+    top: 4rem;
+    left: -1rem;
 }
 #impact2 {
-    top: -9vh;
-    left: 1vh;
+    top: -5rem;
+    left: 2rem;
 }
 #impact3 {
-    top: 2vh;
-    left: 7vh;
+    top: 0rem;
+    left: 5rem;
 }
 
 .datelieu {
@@ -228,4 +243,51 @@ aside#apropos {
 
 .datelieu p {
     padding-left: 7px;
+}
+
+.gps:before {
+    content:"\f192";
+    font-family:"Font Awesome 5 Free";
+    color:#b83f46;
+    padding-top: 0rem;
+    
+    
+    
+}
+
+.dot::before {
+    margin-top: 0.3rem;
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    color: #b83f46;
+    display: block;
+    background-color: #b83f46;
+    border-radius: 50%;
+    height: 0.6rem;
+    font-size: 0.6rem;
+    
+}
+
+
+.fa-dumbbell:before {
+    content: "\f44b";
+    align-self: center;
+}
+.fa-biking:before {
+    content: "\f84a";
+    align-self: center;
+}
+
+.fa-swimmer:before {
+    content: "\f5c4";
+    align-self: center;
+}
+
+.datelieu1, .datelieu2{
+    padding-left:1rem;
+    display: flex;
+}
+
+.date {
+    padding-right: 1rem;
 }

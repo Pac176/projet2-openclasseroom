@@ -22,7 +22,7 @@ body {
 }
 
 h2  {
-    font-size: 1.2em;
+    font-size: 1.5rem;
     text-transform: uppercase; 
 }
 
@@ -57,7 +57,7 @@ div#entete {
 
 #cursus_total {
     max-width: 100%;
-    padding-left: 50px;
+    padding-left: 45px;
     padding-top: 20px;
 }
 
@@ -99,10 +99,34 @@ div#coordonnees {
     padding: 10px;
 }
 
-.datelieu {
+.datelieu1, .datelieu2{
     display: flex;
     flex-direction: column;
+}
+
+
+#entete h2::after {
     
+    padding-top: 0.2rem;
+}
+
+.gps:before {
+    
+    padding-top: 0.5rem;
+    
+    
+    
+}
+
+.dot::before {
+    margin-top:0.5rem;
+    
+}
+
+#entete h2::after {
+    
+    padding-top: -0.4rem;
+    margin-right: 11.3rem;
 }
 
 

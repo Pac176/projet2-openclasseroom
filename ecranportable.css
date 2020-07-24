@@ -100,12 +100,12 @@ h2  {font-size: 1.5rem;
     color:#404040;
 }
 
-ul, .liseret p, #corpscv p {
+.coordonnees p, .liseret p, #corpscv p {
     font-size: 1.1em;
 }
 
 
-ul {
+.coordonnees p, {
     list-style: none;
     padding-left: 10px;
 }

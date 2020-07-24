@@ -32,14 +32,19 @@ div#asidephoto {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.7rem;
     text-align: center;
     margin-top:1.5rem;
 }
  
 h2  {font-size: 1.5rem;
     text-transform: capitalize ;
+
 }
+.formation h4{
+    padding-bottom:1rem;
+}
+
 #entete h2::after {
     content: "_____";
     color: transparent;
@@ -47,11 +52,11 @@ h2  {font-size: 1.5rem;
     text-decoration: underline;
     text-decoration-color: #feca07;
     display: block;
-    padding-top: 0.3rem;
-    margin-right: 14.3rem;
+    padding-top: 6px;
+    margin-right: 227px;
 }
 
-#liseret, #cursus_total {
+.liseret, .cursus_total {
     font-size: 1em;
     
 }
@@ -90,12 +95,12 @@ h2  {font-size: 1.5rem;
     margin-top: 0
 }
 
-#liseret {
+.liseret {
     background-color:#feca07;
-    color:#4404040;
+    color:#404040;
 }
 
-ul, #liseret p, #corpscv p {
+ul, .liseret p, #corpscv p {
     font-size: 1.1em;
 }
 
@@ -106,26 +111,30 @@ ul {
 }
 
 
-#liseret p {
+.liseret p {
     padding-left: 10px;
     padding-right: 10px;
     text-align: justify; 
 }
 
-#coordonnees {
+.coordonnees {
     display: flex;
     height: 300px;
-    padding-right: 10px;
     flex-direction: column;
     justify-content: space-around;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
-#apropos p {
+.apropos p {
     height: 660px;
-    padding-top: 30px;
+    padding-top: 1.5rem;
+    line-height: 1.7rem;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
-#surlois {
+.surlois {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +142,7 @@ ul {
 }
 
 
-#lois {
+.lois {
     text-align: center;
     vertical-align: middle;
     width: 330px;
@@ -152,10 +161,9 @@ ul {
     height:50px;
     display:flex;
     justify-content: center;
-    align-items: 75px;
 }
 
-div#cursus_total {
+.cursus_total {
     padding-left: 0.6rem;
     padding-right: 0.6rem;
     padding-top:0.6rem;
@@ -171,7 +179,6 @@ div#cursus_total {
 
 h3 {
     padding-bottom: 15px;
-    padding-top:15px;
 }
 
 .aprem {
@@ -180,7 +187,7 @@ h3 {
     padding-top:25px;
 }
 
-#form1, #form2, #ep1, #ep2, #ep3{
+.gps,.dot{
     display: flex;
                }
 
@@ -197,10 +204,7 @@ h3 {
     height:40px;
 }
 
-a:visited {
-    color:#feca07 ;
-    text-decoration: none;
-}
+
 
 a:hover, a:focus {
   text-decoration: none;
@@ -209,32 +213,10 @@ a:hover, a:focus {
   border-radius: 20px;
 }
 
-aside#apropos {
+aside.apropos {
     overflow: auto;
 
 }
-
-
-
-.impact {
-    position: relative;
-    z-index: 1;
-    width: 3vh;
- }
-
- #impact1 {
-    top: 4rem;
-    left: -1rem;
-}
-#impact2 {
-    top: -5rem;
-    left: 2rem;
-}
-#impact3 {
-    top: 0rem;
-    left: 5rem;
-}
-
 .datelieu {
     display: flex;
     flex-direction: row;

@@ -8,7 +8,7 @@ body {
 }              
 
 #entete h1 {
-    font-size: 3em;
+    font-size: 2.5rem;
     margin-bottom: 0;               
     padding-top: 20px;
 }       
@@ -21,6 +21,9 @@ body {
     margin-bottom: 0;
 }
 
+
+
+
 h2  {
     font-size: 1.5rem;
     text-transform: uppercase; 
@@ -28,11 +31,6 @@ h2  {
 
 #sousnom {
     text-align: left;
-}
-
-div#asidephoto {
-    min-width: 330px; 
-    max-width: 330px;
 }
 
 div#entete {
@@ -48,14 +46,14 @@ div#entete {
     flex-direction: row;
 }
 
-#liseret {
+.liseret, #asidephoto{
     display: flex;
     flex-direction: column;
-    min-width: 330px;  /* remplacer */
-     max-width: 330px;
+    min-width: 20.65rem;
+    max-width: 20rem;
 }
 
-#cursus_total {
+.cursus_total {
     max-width: 100%;
     padding-left: 45px;
     padding-top: 20px;
@@ -77,18 +75,13 @@ div#entete {
     flex-direction: column;
 }
 
-#form1, #form2, #ep1, #ep2, #ep3{
+.gps,.dot{
     display: flex;
     min-width: 35%;
     padding-right: 15px;
 }
 
-#liseret p, #coordonees {
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-div#coordonnees {
+.coordonnees {
     margin-left: 8%;
     margin-right: 8%; 
 }
@@ -125,7 +118,7 @@ div#coordonnees {
 
 #entete h2::after {
     
-    padding-top: -0.4rem;
+    padding-top: 0.3rem;
     margin-right: 11.3rem;
 }
 

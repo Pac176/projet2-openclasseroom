@@ -4,16 +4,16 @@ header {
 
 body {           
     margin: auto;
-    max-width: 1024px;
+    max-width: 1150px;
 }              
 
-#entete h1 {
-    font-size: 2.5rem;
+.entete h1 {
+    font-size: 3.5rem;
     margin-bottom: 0;               
     padding-top: 20px;
 }       
 
-#entete h2 {
+.entete h2 {
     font-size: 1.6em;
     text-align: left;
     padding-left: 0;
@@ -21,7 +21,14 @@ body {
     margin-bottom: 0;
 }
 
+h3 {
+    padding-left: 0;
+}
 
+
+.formation h4 {
+    padding-left: 0;
+}
 
 
 h2  {
@@ -33,9 +40,9 @@ h2  {
     text-align: left;
 }
 
-div#entete {
+.entete {
     max-width: 100%;
-    padding-left: 50px;
+    padding-left: 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,20 +56,26 @@ div#entete {
 .liseret, #asidephoto{
     display: flex;
     flex-direction: column;
-    min-width: 20.65rem;
-    max-width: 20rem;
+    min-width: 23.8rem;
+    max-width: 23.8rem;
 }
 
 .cursus_total {
     max-width: 100%;
-    padding-left: 45px;
-    padding-top: 20px;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    line-height: 1.5rem;
 }
 
-#recommand {
+.recommand {
     display:flex;
     flex-direction: row;
+    text-align: left;
+    justify-content: left;
 } 
+#nom1 {
+    padding-right: 7rem;
+}
         
 .aprem {
     display: flex;
@@ -87,21 +100,16 @@ div#entete {
 }
 
 
-#nom1, #nom2{
-    font-size: 1.5vh;
+.nom{
+    font-size: 1rem;
     padding: 10px;
 }
 
-.datelieu1, .datelieu2{
+.datelieu {
     display: flex;
     flex-direction: column;
 }
 
-
-#entete h2::after {
-    
-    padding-top: 0.2rem;
-}
 
 .gps:before {
     
@@ -114,12 +122,6 @@ div#entete {
 .dot::before {
     margin-top:0.5rem;
     
-}
-
-#entete h2::after {
-    
-    padding-top: 0.3rem;
-    margin-right: 11.3rem;
 }
 
 

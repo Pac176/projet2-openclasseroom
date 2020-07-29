@@ -1,12 +1,26 @@
-:root {
-    --bg-liseret:#feca07;     
+@font-face {
+    font-family:"robotoregular";
+    src: url('font/roboto-regular-webfont.eot');
+    src: url('font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-regular-webfont.woff2') format('woff2'),
+         url('font/roboto-regular-webfont.woff') format('woff'),
+         url('font/roboto-regular-webfont.ttf') format('truetype'),
+         url('font/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-/*#b83f46*/
-*{
+:root {
+    --bg-liseret:#feca07;  
+    
+}
+
+
+* {
     margin:0;
     padding:0;
-
+    font-family:"robotoregular";
 }
 
 #bloc_page {
@@ -41,9 +55,12 @@ h1 {
     font-size: 2rem;
     text-align: center;
     margin-top:1.5rem;
+    font-weight: 400;
 }
  
-h2  {font-size: 1.5rem;
+h2  {
+    font-size: 1.5rem;
+    font-weight: 400;
     
 }
 .formation h4{
@@ -53,14 +70,14 @@ h2  {font-size: 1.5rem;
 
 .entete h2::after {
     
-    content: "_____";
+    content: "____ _";
     color: transparent;
     margin-top: -1.8rem;
     text-decoration: underline;
     text-decoration-color: var(--bg-liseret);
     display: block;
-    padding-top: 6px;
-    margin-right: 227px;
+    padding-top: 0.08rem;
+    margin-right: 14.7rem;
 }
 
 .liseret, .cursus_total {
@@ -125,7 +142,7 @@ h2  {font-size: 1.5rem;
 
 .coordonnees {
     display: flex;
-    height: 23.5rem;
+    height: 23rem;
     flex-direction: column;
     justify-content: space-around;
     margin-left: 6%;
@@ -133,12 +150,12 @@ h2  {font-size: 1.5rem;
 }
 
 .apropos p {
-    height: 45rem;
+    height: 50rem;
     padding-top: 1.5rem;
     line-height: 1.7rem;
     margin-left: 6%;
     margin-right: 6%;
-    line-height: 2rem;
+    
 }
 
 .surlois {
@@ -195,7 +212,9 @@ h3 {
     padding-top: 2rem;
 }
 .formation p {
+    padding-right: 1rem;
     text-align: justify;
+    padding-left: 3rem;
 }
 
 .gps,.dot{

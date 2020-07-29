@@ -16,10 +16,14 @@ body {
 .entete h2 {
     font-size: 1.6em;
     text-align: left;
-    padding-left: 0;
+    padding-left: 0rem;
     margin-top: 0;
     margin-bottom: 0;
 }
+.entete h2::after {
+    
+    padding-top: 0rem;
+} 
 
 h3 {
     padding-left: 0;
@@ -32,9 +36,16 @@ h3 {
 
 
 h2  {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-transform: uppercase; 
 }
+.formation p {
+    padding-right: 1rem;
+    text-align: justify;
+    padding-left: 0rem;
+}
+
+
 
 #sousnom {
     text-align: left;
@@ -63,7 +74,7 @@ h2  {
 .cursus_total {
     max-width: 100%;
     padding-left: 2.5rem;
-    padding-top: 1rem;
+    padding-top: 1.3rem;
     line-height: 1.5rem;
 }
 
